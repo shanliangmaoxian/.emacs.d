@@ -9,5 +9,6 @@
 (require 'init-elpa)
 (require 'init-package)
 (require 'init-ui)
+(require 'init-treemacs)
 
 (when (file-exists-p custom-file) (load-file custom-file))
