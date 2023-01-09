@@ -37,7 +37,7 @@
 (dashboard-setup-startup-hook)
 (setq initial-buffer-choice (lambda () (get-buffer-create "*dashboard*")))
 (setq dashboard-banner-logo-title "Welcome to Dashboard")
-(setq dashboard-startup-banner "/Users/maoxian/.emacs.d/banner/cb66d8a1a3e5e0490459335bbbbce363.jpeg")
+(setq dashboard-startup-banner "~/.emacs.d/banner/pngsucai_517128_f22212.png")
 (setq dashboard-center-content t)
 (setq dashboard-set-heading-icons t)
 (setq dashboard-set-file-icons t)
@@ -65,7 +65,10 @@
         (complete-symbol . ivy-posframe-display-at-point)
         (counsel-M-x     . ivy-posframe-display-at-window-bottom-left)
         (t               . ivy-posframe-display)))
- )
+)
+
+;(use-package posframe
+;  :ensure t)
 
 ;; 重启emacs
 (use-package restart-emacs)
