@@ -4,6 +4,8 @@ elpa/*
 .cache/*
 auto-save-list/*
 
+\#*\#
+
 bookmarks
 recentf
 projectile-bookmarks.eld
