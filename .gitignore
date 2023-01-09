@@ -1,8 +1,12 @@
 # Logs
-logs
+logs/*
 elpa/*
-*.iml
+.cache/*
 auto-save-list/*
+
+bookmarks
+recentf
+projectile-bookmarks.eld
 
 # Editor directories and files
 .vscode/*
@@ -14,3 +18,4 @@ auto-save-list/*
 *.njsproj
 *.sln
 *.sw?
+*.iml

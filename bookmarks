@@ -1,9 +1,0 @@
-;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8-emacs; mode: lisp-data -*-
-;;; This format is meant to be slightly human-readable;
-;;; nevertheless, you probably don't want to edit it.
-;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("s"
- (handler . eaf--bookmark-restore)
- (eaf-app . "browser")
- (filename . "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=few&fenlei=256&rsv_pq=0x9a8ab20600000631&rsv_t=2d16rR6bGNdp%2FiJWhntbEcJCCsqSjIOB3IYgdrcVEk3MRczO%2Bja1hXFl6v9X&rqlang=en&rsv_enter=1&rsv_dl=ib&rsv_sug3=6&rsv_sug1=5&rsv_sug7=100"))
-)
